@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bdxvfvuki2cs2"
+path="res://.godot/imported/Sci-fi stealth fail.ogg-38f490209b34313f80cc87c1d1d92c87.oggvorbisstr"
+
+[deps]
+
+source_file="res://Matseb All Resources/Sci-fi MEs/Sci-fi stealth fail.ogg"
+dest_files=["res://.godot/imported/Sci-fi stealth fail.ogg-38f490209b34313f80cc87c1d1d92c87.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

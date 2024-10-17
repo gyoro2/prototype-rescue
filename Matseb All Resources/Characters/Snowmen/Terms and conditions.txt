@@ -1,0 +1,25 @@
+Terms, conditions, and details
+
+
+Credit:
+
+Matseb2611 (or Matthew Ashworth)
+
+
+Terms:
+
+Both commercial and non-commercial
+
+
+Contact details:
+
+Matseb2611 on the forums or email matthewseb2611@yahoo.co.uk
+
+
+Content Details:
+
+10 Snowmen sprites
+ - Make sure the '$' remains at the beginning of each file name so that RPG maker can read them correctly
+ - The skier snowman sprites are behaviour sprites, but treat them just as you would regular ones
+ - For any more info feel free to contact me
+

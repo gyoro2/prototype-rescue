@@ -1,0 +1,28 @@
+Welcome!
+
+In this folder you will find a variety of resources, some of which I released as part of ReStaff
+and others separately. Many of these were edited from RTP and so can only be used in
+RPG Maker VX Ace.
+
+Please credit me as: Matseb2611 or Matthew Ashworth (either way is fine).
+
+The following resources also require you to credit Enterbrain:
+
+- All Animated Battlers.
+- All Characters except for Snowmen, Virtual Doors 1 and 2, $Debris, Firework Bursts 1 and 2, $Lurker, and Glowing Decorations.
+- All Faces/Busts.
+- All HUD Images.
+- All Just Face It battlers.
+- All Large Icons.
+- All Tiles.
+- All Windowskins.
+
+For the Animated Battlers of Ogre and Demon King, you must also credit Marquise.
+
+
+If you're confused with any of the resources and need help in getting them to work in-game,
+feel free to send me a message and I'll be happy to help.
+
+You can contact me (Matseb2611) via PM on RPG Maker Web, or by email at matthewseb2611@yahoo.co.uk.
+
+Thank you and enjoy!

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bk676c7uyhnu4"]
+
+[ext_resource type="Script" path="res://proyektil.gd" id="1_xfys7"]
+[ext_resource type="Texture2D" uid="uid://c5nj1wvc1ml24" path="res://melee.png" id="2_j2n0n"]
+
+[node name="Node2D" type="CharacterBody2D"]
+script = ExtResource("1_xfys7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(27, 19)
+scale = Vector2(0.0406458, 0.0345617)
+texture = ExtResource("2_j2n0n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]

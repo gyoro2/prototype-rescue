@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://wwrdo4clugog"
+path="res://.godot/imported/Sci-fi game over 01.ogg-378d1f48c28277760ffdf6729f160122.oggvorbisstr"
+
+[deps]
+
+source_file="res://Matseb All Resources/Sci-fi MEs/Sci-fi game over 01.ogg"
+dest_files=["res://.godot/imported/Sci-fi game over 01.ogg-378d1f48c28277760ffdf6729f160122.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

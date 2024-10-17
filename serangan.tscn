@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmfst4dsy5h67"]
+
+[ext_resource type="Script" path="res://serangan.gd" id="1_b7lqh"]
+[ext_resource type="Texture2D" uid="uid://da8nw3qcfyuna" path="res://Porcupine Sprite Sheet.png" id="2_sotla"]
+
+[node name="Node2D" type="CharacterBody2D"]
+script = ExtResource("1_b7lqh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(17, 25)
+texture = ExtResource("2_sotla")
+hframes = 5
+vframes = 4
+
+[node name="Area2D" type="Area2D" parent="."]

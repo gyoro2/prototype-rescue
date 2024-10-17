@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bipdhriyg1jto"
+path="res://.godot/imported/Sci-fi victory 02.ogg-59234fd82704970917b66e16c9ef9c80.oggvorbisstr"
+
+[deps]
+
+source_file="res://Matseb All Resources/Sci-fi MEs/Sci-fi victory 02.ogg"
+dest_files=["res://.godot/imported/Sci-fi victory 02.ogg-59234fd82704970917b66e16c9ef9c80.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
