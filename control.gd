@@ -12,7 +12,7 @@ func _on_play_pressed() -> void:
 
 
 func _on_option_pressed() -> void:
-	print("Option Press")
+	print("Option Pressed")
 
 
 func _on_exit_pressed() -> void:
