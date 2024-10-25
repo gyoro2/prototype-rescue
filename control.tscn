@@ -1,9 +1,12 @@
-[gd_scene load_steps=10 format=3 uid="uid://dq4pctubnml0t"]
+[gd_scene load_steps=9 format=3 uid="uid://dq4pctubnml0t"]
 
 [ext_resource type="Script" path="res://control.gd" id="1_t28ga"]
 [ext_resource type="Texture2D" uid="uid://h0231tho2s7i" path="res://titles1/Plain.png" id="1_tlfdx"]
 [ext_resource type="FontFile" uid="uid://df56yvv6vfy4x" path="res://Symtext.ttf" id="2_oitgl"]
-[ext_resource type="AudioStream" uid="uid://co3dxpw8g8tkb" path="res://Field1.ogg" id="4_s3dc0"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oxs82"]
+texture = ExtResource("1_tlfdx")
+modulate_color = Color(0.707967, 0.707967, 0.707967, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_17xvu"]
 
@@ -14,10 +17,6 @@
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6v1u4"]
 bg_color = Color(0.422739, 0.15608, 0.0134697, 1)
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oxs82"]
-texture = ExtResource("1_tlfdx")
-modulate_color = Color(0.707967, 0.707967, 0.707967, 1)
-
 [node name="Control" type="Control"]
 layout_mode = 3
 anchors_preset = 15
@@ -27,16 +26,22 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_t28ga")
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("4_s3dc0")
-parameters/looping = true
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 2
+offset_left = 3.0
+offset_top = -1.0
+offset_right = 1153.0
+offset_bottom = 647.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_oxs82")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
 offset_left = 444.0
 offset_top = 303.0
-offset_right = 576.0
-offset_bottom = 443.0
+offset_right = 589.0
+offset_bottom = 452.0
 scale = Vector2(2.36531, 2.12276)
 theme_override_constants/separation = 7
 
@@ -74,32 +79,17 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_6v1u4")
 text = "EXIT"
 
 [node name="Label" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -189.5
-offset_top = -253.0
-offset_right = 218.5
-offset_bottom = -112.0
+layout_mode = 2
+offset_left = 336.0
+offset_top = 55.0
+offset_right = 900.0
+offset_bottom = 206.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(1.0934, 1.39856)
 theme_override_fonts/font = ExtResource("2_oitgl")
 theme_override_font_sizes/font_size = 50
 text = "	        RESCUE!
 Save The Wildlife"
-
-[node name="Panel" type="Panel" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxTexture_oxs82")
 
 [connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="VBoxContainer/Option" to="." method="_on_option_pressed"]
